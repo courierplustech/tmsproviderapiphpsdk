@@ -24,6 +24,10 @@ class TmsConfig extends Singleton
      * @var array
      */
     public $headers;
+    /**
+     * @var array
+     */
+    public $auth;
 
     public function Configure($baseUrl, $username = null, $password = null, $token = null)
     {
